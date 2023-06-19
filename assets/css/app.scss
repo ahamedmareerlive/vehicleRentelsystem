@@ -1,0 +1,153 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:700";
+/*styling*/
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+.wrapper {
+	width: 840px;
+	margin: 0 auto;
+	height: 1200px;
+}
+.vehicle-card {
+	position: relative;
+	display: inline-block;
+	width: 240px;
+	height: auto;
+	overflow: visible;
+	border-radius: 2px;
+	margin: 0 20px 20px 0;
+	.details {
+		height: auto;
+		width: 240px;
+		background-color: #fff;
+		box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+	}
+	.info {
+		margin: 10px;
+	}
+	.ctas {
+		margin: 10px 0;
+	}
+	h3 {
+		margin: 0;
+		font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+		font-size: 1.5rem;
+		letter-spacing: -.5px;
+	}
+	.price {
+		span {
+			font-family: "Helvetica", Arial, sans-serif;
+			color: #999;
+			font-size: .75rem;
+		}
+		h4 {
+			margin: 0;
+			font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+			color: #222;
+			font-size: 1.25rem;
+		}
+	}
+	.desc {
+		p {
+			color: #666;
+			font-size: 1rem;
+			line-height: 1.25rem;
+		}
+	}
+	.specs {
+		border-top: 1px solid #dadada;
+		border-bottom: 1px solid #dadada;
+		margin: 20px 0;
+		padding: 10px 0;
+	}
+}
+.thumb-gallery {
+	height: 150px;
+	img {
+		position: absolute;
+		width: 240px;
+		height: 150px;
+		border-bottom: 1px solid #dadada;
+	}
+	img.first {
+		opacity: 1;
+	}
+}
+.stars {
+	margin: 10px 0;
+}
+.star {
+	polygon {
+		fill: #E20000;
+	}
+}
+.specs {
+	.spec {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	span {
+		font-family: "Helvetica", Arial, sans-serif;
+		color: #999;
+		font-size: .75rem;
+	}
+	p {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 1rem;
+		font-weight: bold;
+		margin: 0;
+		span {
+			font-size: .75rem;
+			margin-left: 2px;
+			font-weight: normal;
+		}
+	}
+}
+.btn {
+	display: block;
+	padding: 0 10px;
+	float: left;
+	font-size: .75rem;
+	font-family: "Helvetica", Arial, sans-serif;
+	text-decoration: none;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	border-radius: 2px;
+	font-weight: bold;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.primary {
+	background-color: #1383b3;
+	color: #fff;
+	margin-right: 10px;
+	line-height: 30px;
+}
+.secondary {
+	background-color: #fff;
+	color: #1383b3;
+	border: 2px solid #1383b3;
+	line-height: 26px;
+}
+.vehicle-preview {
+	display: flex;
+	margin: 20px;
+	padding: 10px;
+	height: 200px;
+	width: auto;
+	img {
+		width: auto;
+		height: auto;
+	}
+}
+.error {
+	color: red !important;
+}
